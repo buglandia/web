@@ -1,0 +1,25 @@
+// Reference: https://aka.ms/vscode-remote/devcontainer.json
+{
+  "name": "web",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace/web",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "ashinzekene.nestjs",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "visualstudioexptteam.vscodeintellicode",
+    "humao.rest-client",
+    "editorconfig.editorconfig",
+    "orta.vscode-jest"
+  ],
+  "postCreateCommand": "npm install",
+  "remoteUser": "vscode"
+}
