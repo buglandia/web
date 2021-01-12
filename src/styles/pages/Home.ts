@@ -20,4 +20,9 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+
+  img {
+    width: 100vw;
+    height: 100vh;
+  }
 `
