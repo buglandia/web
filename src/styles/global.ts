@@ -10,11 +10,10 @@ export default createGlobalStyle`
   }
 
   body {
-    background: url(${BackgroundImg});
+    background: url(${BackgroundImg}) no-repeat;
     background-color: ${props => props.theme.colors.background};
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: ${props => props.theme.colors.text};
+    background-size: cover;
+    background-position: center;
     font: 400 16px Roboto, sans-serif;
   }
 `
