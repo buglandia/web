@@ -13,11 +13,14 @@ export const Container = styled.div`
     font-size: 54px;
     color: ${props => props.theme.colors.primary};
     margin-top: 40px;
+    text-shadow: 5px 3px black;
   }
 
   p {
     margin-top: 24px;
     font-size: 24px;
     line-height: 32px;
+    color: ${props => props.theme.colors.text};
+    text-shadow: 2px 1px black;
   }
 `
